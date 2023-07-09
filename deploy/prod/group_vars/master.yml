@@ -21,4 +21,4 @@ podSubnet: 10.244.0.0/16
 kubelet_ver: 1.26.5-00
 kubeadm_ver: 1.26.5-00
 kubectl_ver: 1.26.5-00
-sleep_time: 10
+sleep_time: 30
