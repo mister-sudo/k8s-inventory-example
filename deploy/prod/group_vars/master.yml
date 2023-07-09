@@ -14,3 +14,11 @@ init_users:
     private_key:
     authorized_keys:
       - ../deploy/prod/files/ssh_auth_keys/palmin.pub
+
+
+controlPlaneEndpoint: 172.17.0.100
+podSubnet: 10.244.0.0/16
+kubelet_ver: 1.26.5-00
+kubeadm_ver: 1.26.5-00
+kubectl_ver: 1.26.5-00
+sleep_time: 10
