@@ -1,0 +1,16 @@
+init_locale: en_US.UTF-8
+init_timezone: Europe/Moscow
+init_ssh_allowed_groups:
+  - sshusers
+init_users:
+  - name: super-admin
+    group: sshusers
+    groups:
+      - adm
+    home: '/home/super-admin'
+    is_sudoer: yes
+    known_hosts:
+      - github.com
+    private_key:
+    authorized_keys:
+      - ../deploy/prod/files/ssh_auth_keys/palmin.pub

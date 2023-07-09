@@ -1,0 +1,6 @@
+---
+- name: K8s playbook
+  hosts: all
+  become: true
+  roles:
+    - mister-sudo.k8s-cluster

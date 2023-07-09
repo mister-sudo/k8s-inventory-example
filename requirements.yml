@@ -1,0 +1,11 @@
+---
+roles:
+  - name: mister-sudo.init
+    src: https://github.com/mister-sudo/init.git
+    scm: git
+    version: 1.0.0
+
+  - name: mister-sudo.k8s-cluster
+    src: https://github.com/mister-sudo/k8s-cluster.git
+    scm: git
+    version: 1.0.0    

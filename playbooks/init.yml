@@ -1,0 +1,6 @@
+---
+- name: Init playbook
+  hosts: all
+  become: true
+  roles:
+    - mister-sudo.init
